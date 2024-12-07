@@ -1,0 +1,16 @@
+<div class="down">
+    <div *ngIf="todo">
+        <div *ngIf="!isEditing">
+          <span class="todo-name">{{ todo.task }}</span>
+          <button (click)="toggleEdit()" class="btn btn-primary edit">Edit</button>
+          <button (click)="deleteTodo()" class="btn btn-danger delete">Delete</button>
+        </div>
+      
+        <div *ngIf="isEditing">
+          <input [(ngModel)]="editedTask" class="input-element"/>
+          <button (click)="saveEdit()" class="btn btn-primary">Save</button>
+          <button (click)="toggleEdit()" class="btn btn-danger">Cancel</button>
+        </div>
+      </div>
+</div>
+  

@@ -1,0 +1,23 @@
+.input-element{
+    border-radius: 10px;
+    margin-right: 30px;
+   height: 40px;
+}
+.edit{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.delete{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.down{
+    margin-bottom: 17px;
+}
+.todo-name{
+    color: whitesmoke;
+    font-family:roboto;
+
+}
